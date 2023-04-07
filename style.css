@@ -100,3 +100,84 @@ header{
 .active{
     color: #0084ff !important;
 }
+
+
+
+
+
+
+/* Smartphones Small Medium*/
+@media only screen and (max-width: 375px) {
+    .logo h2{
+        font-size: 2rem;
+    }
+    .navigations li{
+        font-size: 1.6rem;
+    }
+    .colorDisplay{
+        height: 92vh;
+    }
+    .bgHd{
+        padding: 12px 20px 12px 20px !important;
+    }
+    .bgColorHd h1{
+        font-size: 1.7rem;
+    }
+    .bgValue{
+        padding: 12px 20px 12px 0px !important;
+    }
+    .bgColorValue h1{
+        font-size: 1.7rem;
+    }
+    .button{
+        padding: 4px 14px;
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Smartphones Mobile Medium*/
+@media(min-width: 321px) and (max-width: 375px) {
+    .colorDisplay{
+        height: 92vh;
+    }
+    .bgHd{
+        padding: 12px 20px 12px 20px !important;
+    }
+    .bgColorHd h1{
+        font-size: 1.9rem;
+    }
+    .bgValue{
+        padding: 12px 20px 12px 0px !important;
+    }
+    .bgColorValue h1{
+        font-size: 1.9rem;
+    }
+    .button{
+        padding: 4px 16px;
+        font-size: 1.6rem;
+    }
+}
+
+/* Smartphones Mobile Large*/
+@media(min-width: 376px) and (max-width: 500px) {
+    .colorDisplay{
+        height: 92vh;
+    }
+    .bgHd{
+        padding: 12px 20px 12px 20px !important;
+    }
+    .bgColorHd h1{
+        font-size: 2rem;
+    }
+    .bgValue{
+        padding: 12px 20px 12px 0px !important;
+    }
+    .bgColorValue h1{
+        font-size: 2rem;
+    }
+    .button{
+        padding: 4px 18px;
+        font-size: 1.6rem;
+    }
+}
