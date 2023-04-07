@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'K2D', sans-serif !important;
+}
+
+header{
+    background-color: #ffffff;
+    box-shadow: 10px 0px 25px #999999;
+}
+
+.logo h2{
+    color: #0084ff;
+    font-size: 2.2rem;
+}
+
+.navigations{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigations li{
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.navigations li:hover{
+    color: #0084ff;
+}
+
+.colorDisplay{
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.bgColor{
+    background-color: #444444;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgHd{
+    padding: 10px 30px 10px 30px !important;
+}
+.bgColorHd h1{
+    font-size: 4.6rem;
+    color: #ffffff;
+}
+.bgValue{
+    padding: 10px 30px 10px 0px !important;
+}
+.bgColorValue h1{
+    font-size: 4.6rem;
+    color: #64b4ff;
+    text-transform: lowercase;
+}
+
+
+.button{
+    border: 4px solid #444444;
+    outline: none;
+    padding: 6px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #444444;
+    transition: 0.4s;
+}
+.button:hover{
+    color: #ffffff;
+    background-color: #444444;
+}
+.button:active{
+    transform: scale(0.95);
+}
+
+.active{
+    color: #0084ff !important;
+}
